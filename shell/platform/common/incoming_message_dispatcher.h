@@ -17,7 +17,7 @@ namespace flutter {
 
 // Manages per-channel registration of callbacks for handling messages from the
 // Flutter engine, and dispatching incoming messages to those handlers.
-class IncomingMessageDispatcher {
+class FLUTTER_EXPORT IncomingMessageDispatcher {
  public:
   // Creates a new IncomingMessageDispatcher. |messenger| must remain valid as
   // long as this object exists.
