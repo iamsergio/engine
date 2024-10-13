@@ -12,4 +12,5 @@ else
     FLUTTER_BUILD_DIR=host_debug_unopt
 fi
 
-ninja -C ${SCRIPT_DIR}/../out/${FLUTTER_BUILD_DIR}
+sh ${SCRIPT_DIR}/ninja.sh
+
